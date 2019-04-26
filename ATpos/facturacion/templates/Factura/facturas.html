@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="content">
+    <div class="">
+        <div class="page-header-title">
+            <h4 class="page-title">Ultimos 10 facturas</h4>
+        </div>
+    </div>
+    <br>
+    <div class="page-content-wrapper">
+        <div class="container">
+            <!-- Content page -->
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <table class="table table-hover">
+                        <thead>
+                            <tr style="color:#0E2EB0">
+                                <th font color="red">Nombre</th>
+                                <th>Precio</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for factura in facturas %}
+                            <tr>
+
+
+
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                    <div style="text-align:center;">
+                        <a href="/factura/" class="btn btn-outline-dark waves-effect waves-light">Agregar</a>
+
+                        <button type="button" class="btn btn-dark waves-effect waves-light"
+                        onClick=" window.location.href='/' ">
+                        Regresar
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+{% endblock %}

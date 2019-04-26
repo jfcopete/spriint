@@ -1,0 +1,19 @@
+{
+  "short_name": "InfiniteLoop",
+  "name": "ATpos Proyect",
+  "display": "standalone",
+  "icons": [
+    
+    {
+      "src": "media/logo.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "media/logo.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "start_url": "/"
+}
